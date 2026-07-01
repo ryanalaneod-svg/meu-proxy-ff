@@ -64,7 +64,7 @@ app.get('/config', (req, res) => {
 
 app.get('/version', (req, res) => {
     res.json({
-        latest: "1.0.0"
+        latest: "2.126.1"
     });
 });
 
@@ -400,5 +400,6 @@ app.listen(port, '0.0.0.0', () => {
     console.log("SERVER STARTED SUCCESSFULLY");
     console.log("PORT:", port);
     console.log("ADDRESS: 0.0.0.0");
+    console.log("VERSION: 2.126.1");
     console.log("================================");
 });
